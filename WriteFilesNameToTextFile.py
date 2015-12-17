@@ -3,7 +3,7 @@ file  = os.listdir('.')
 i=1
 for filename in file:
 	extension = os.path.splitext(filename)[1]
-	if extension == '.pdf':
+	if extension == '.mp4':
 		p=i
 		newfilename = filename.replace('_',' ')
 		print(newfilename)
